@@ -1,0 +1,1 @@
+# stoke-admin-theme-angular-16
