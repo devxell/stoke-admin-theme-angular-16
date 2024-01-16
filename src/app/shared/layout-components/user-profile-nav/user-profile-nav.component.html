@@ -1,0 +1,53 @@
+<div
+class="dropdown main-profile-menu nav nav-item nav-link"
+ngbDropdown
+>
+<a
+  ngbDropdownToggle
+  class="profile-user d-flex"
+  href="javascript:void(0)"
+  ><img
+    src="./assets/img/users/5.jpg"
+    alt="user-img"
+    class="rounded-circle mCS_img_loaded" /><span></span
+></a>
+
+<div ngbDropdownMenu class="dropdown-menu">
+  <div
+    class="main-header-profile header-img bg-primary rounded-top-5 p-3"
+  >
+    <h6>Joyce Stewart</h6>
+    <span>web Designer</span>
+  </div>
+  <a
+    ngbDropdownItem
+    class="dropdown-item"
+    routerLink="/pages/profile"
+    ><i class="fe fe-user"></i> My Profile</a
+  >
+  <a
+    ngbDropdownItem
+    class="dropdown-item"
+    routerLink="/pages/profile"
+    ><i class="fe fe-edit"></i> Edit Profile</a
+  >
+  <a
+    ngbDropdownItem
+    class="dropdown-item"
+    routerLink="/pages/profile"
+    ><i class="fe fe-clock"></i> Activity Logs</a
+  >
+  <a
+    ngbDropdownItem
+    class="dropdown-item"
+    routerLink="/pages/profile"
+    ><i class="fe fe-settings"></i> Account Settings</a
+  >
+  <a
+    ngbDropdownItem
+    class="dropdown-item"
+    routerLink="/custompages/login"
+    ><i class="fe fe-log-out"></i> Sign Out</a
+  >
+</div>
+</div>

@@ -1,0 +1,77 @@
+<div class="dropdown nav-item main-header-notification" ngbDropdown>
+    <a
+      ngbDropdownToggle
+      class="new nav-link"
+      href="javascript:void(0);"
+      ><i class="fe fe-bell"></i><span class="pulse"></span
+    ></a>
+    <div ngbDropdownMenu class="dropdown-menu">
+      <div
+        class="menu-header-content bg-primary text-start d-flex rounded-top-5"
+      >
+        <div class="">
+          <h6 class="menu-header-title text-white mb-0">
+            4 New Notifications
+          </h6>
+        </div>
+        <div class="my-auto ms-auto">
+          <a
+            class="badge bg-pill bg-success float-end"
+            href="javascript:void(0);"
+            >Mark All Read</a
+          >
+        </div>
+      </div>
+      <a
+        class="d-flex p-3 border-bottom"
+        routerLink="/apps/mail/mail">
+        <div class="notifyimg bg-warning-transparent">
+          <i class="fe fe-mail text-warning"></i>
+        </div>
+        <div class="ms-3">
+          <h5 class="notification-label mb-1">New review received</h5>
+          <div class="notification-subtext">1 day ago</div>
+        </div>
+      </a>
+      <a
+        class="d-flex p-3 border-bottom"
+        routerLink="/apps/mail/mail">
+        <div class="notifyimg bg-primary-transparent">
+          <i class="fe fe-check-circle text-primary"></i>
+        </div>
+        <div class="ms-3">
+          <h5 class="notification-label mb-1">Project approved</h5>
+          <div class="notification-subtext">4 hour ago</div>
+        </div>
+      </a>
+      <a
+        class="d-flex p-3 border-bottom"
+        routerLink="/apps/mail/mail">
+        <div class="notifyimg bg-purple-transparent">
+          <i class="fe fe-upload-cloud text-purple"></i>
+        </div>
+        <div class="ms-3">
+          <h5 class="notification-label mb-1">Updates Available</h5>
+          <div class="notification-subtext">2 days ago</div>
+        </div>
+      </a>
+      <a
+        class="d-flex p-3 border-bottom"
+        routerLink="/apps/mail/mail">
+        <div class="notifyimg bg-pink-transparent">
+          <i class="fe fe-file-text text-pink"></i>
+        </div>
+        <div class="ms-3">
+          <h5 class="notification-label mb-1">New files available</h5>
+          <div class="notification-subtext">10 hour ago</div>
+        </div>
+      </a>
+      <div class="dropdown-footer text-center">
+        <a
+          routerLink="/apps/notification"
+          class="btn btn-primary w-md tx-13"
+          >View All<i class="fe fe-arrow-right tx-12 ms-2 lh-1"></i
+        ></a>
+      </div>
+    </div>
+  </div>
