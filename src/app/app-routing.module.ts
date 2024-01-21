@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './shared/layout-components/layout/layout.component';
-import { content } from './shared/routes/routes';
 
 
 const routes: Routes = [
@@ -25,12 +24,6 @@ const routes: Routes = [
       }
     ],
   }
-  // Vertical layout 
-  // {
-  //   path: '',
-  //   loadChildren: () =>
-  //     import('./shared/shared.module').then((m) => m.SharedModule),
-  // },
 ];
 
 @NgModule({

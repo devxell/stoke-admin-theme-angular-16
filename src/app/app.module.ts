@@ -9,6 +9,7 @@ import { SharedModule } from './shared/shared.module';
 import { LayoutService } from './shared/services/layout.service';
 import { NgxColorsModule } from 'ngx-colors';
 import { CommonModule } from '@angular/common';
+import { DashboardModule } from './component/dashboard/dashboard.module';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,8 @@ import { CommonModule } from '@angular/common';
     AppRoutingModule,
     NgxColorsModule,
     CommonModule,
+    DashboardModule,
+    SharedModule
   ],
   providers: [LayoutService],
   bootstrap: [AppComponent],
